@@ -6,7 +6,7 @@ public class Astro : MonoBehaviour
 {
     [SerializeField] public float speed = 3f; //скорость персонажа
     [SerializeField] public int lives = 3; //количество жизней
-    [SerializeField] public float jumpforce = 0.1f; //сила прыжка
+    [SerializeField] public float jumpforce = 0.5f; //сила прыжка
     private bool isGrounded = false;
 
     private Rigidbody2D rb;
