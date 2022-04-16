@@ -5,7 +5,7 @@ using UnityEngine;
 public class NextLevel : MonoBehaviour
 {
 private void OnTriggerEnter2D(Collider2D other) {
-    if(other.gameObject.CompareTag("Box"))
+    if(other.gameObject.CompareTag("Player"))
         {
             LevelController.instance.isEndGame();
         }
